@@ -116,7 +116,7 @@ advgenerators.module.FluidOutputSelect.name=液體輸出閥門
 advgenerators.label.turbine.turbines=已連接渦輪機
 advgenerators.label.turbine.maxprod=輸出起點
 advgenerators.label.turbine.fuel=燃料消耗提前
-advgenerators.label.turbine.efficiency=燃料效率：％s
+advgenerators.label.turbine.efficiency=燃料效率：%s
 advgenerators.label.turbine.prod=當前輸出
 advgenerators.label.turbine.fuelaverage=當前燃料消耗
 advgenerators.label.turbine.rpm=垂直
@@ -124,15 +124,15 @@ advgenerators.label.turbine.steamaverage=蒸汽消耗
 
 advgenerators.label.exchanger.heat=當前平均值
 advgenerators.label.exchanger.maxtransfer=熱交換速度峰值
-advgenerators.label.exchanger.inrate=％s消耗
+advgenerators.label.exchanger.inrate=%s消耗
 advgenerators.label.exchanger.noinput=無輸入端
-advgenerators.label.exchanger.outrate=％s產生
+advgenerators.label.exchanger.outrate=%s產生
 advgenerators.label.exchanger.nooutput=無輸出端
 advgenerators.label.exchanger.heatloss=速度損失
 
-advgenerators.label.syngas.steam=蒸汽：％s
-advgenerators.label.syngas.carbon=炭：％s
-advgenerators.label.syngas.heat=速度：％s /％s HU
+advgenerators.label.syngas.steam=蒸汽：%s
+advgenerators.label.syngas.carbon=炭：%s
+advgenerators.label.syngas.heat=速度：%s /%s HU
 advgenerators.label.syngas.heat.disabled=未安裝加熱室
 advgenerators.label.syngas.produced=合成氣製造速度（每噸）
 advgenerators.label.syngas.consumed=炭消耗（每勾）
@@ -140,11 +140,11 @@ advgenerators.label.syngas.heat.delta=變化增加/降低
 
 advgenerators.waila.turbine.nofuel=無燃料
 advgenerators.waila.turbine.nosteam=無蒸汽
-advgenerators.waila.turbine.sourcing=消耗％s％s / t
-advgenerators.waila.turbine.production=輸出％s％s / t
+advgenerators.waila.turbine.sourcing=消耗%s%s / t
+advgenerators.waila.turbine.production=輸出%s%s / t
 
-advgenerators.flow.fluid=％s mB / t
-advgenerators.flow.other=％s / t
+advgenerators.flow.fluid=%s mB / t
+advgenerators.flow.other=%s / t
 
 advgenerators.output.0=紅色輸出
 advgenerators.output.1=綠色輸出
@@ -153,8 +153,8 @@ advgenerators.output.3=黃色輸出
 advgenerators.output.4=青色輸出
 advgenerators.output.5=紫色輸出
 
-advgenerators.tooltip.turbine.fuel=渦輪機內燃料％s％s / mB
-advgenerators.tooltip.carbon=炭含量：％s
+advgenerators.tooltip.turbine.fuel=渦輪機內燃料%s%s / mB
+advgenerators.tooltip.carbon=炭含量：%s
 
 advgenerators.exchanger.output.hot=熱的液體
 advgenerators.exchanger.output.cold=冷卻液體
@@ -162,8 +162,8 @@ advgenerators.exchanger.output.both=全部輸出
 
 itemGroup.bdew.generators=高級（初始化）發電機
 
-resource.item.format=％s /％s
-resource.fluid.format=％s /％s兆字節
+resource.item.format=%s /%s
+resource.fluid.format=%s /%s兆字節
 
 fluid.steam=蒸汽
 fluid.syngas=合成氣
@@ -188,21 +188,21 @@ advgenerators.sensor.param.resource.fluid=包含液體
 
 advgenerators.sensor.exchanger.heat=內部變量
 advgenerators.sensor.param.heat.exchanger.cold=未加熱
-advgenerators.sensor.param.heat.exchanger.low=正在加熱（<％s HU）
-advgenerators.sensor.param.heat.exchanger.medium=能夠熱交換（>％s HU）
-advgenerators.sensor.param.heat.exchanger.high=達到最高熱量（％s HU）
+advgenerators.sensor.param.heat.exchanger.low=正在加熱（<%s HU）
+advgenerators.sensor.param.heat.exchanger.medium=能夠熱交換（>%s HU）
+advgenerators.sensor.param.heat.exchanger.high=達到最高熱量（%s HU）
 
 advgenerators.sensor.turbine.speed=垂直
 advgenerators.sensor.param.turbine.speed.stop=停止
 advgenerators.sensor.param.turbine.speed.low=正在旋轉
-advgenerators.sensor.param.turbine.speed.medium=> =％s RPM
-advgenerators.sensor.param.turbine.speed.high= at％s RPM（最高排名）
+advgenerators.sensor.param.turbine.speed.medium=> =%s RPM
+advgenerators.sensor.param.turbine.speed.high= at%s RPM（最高排名）
 
 advgenerators.sensor.turbine.generation=能量輸出
 advgenerators.sensor.param.turbine.generation.stop=停止
-advgenerators.sensor.param.turbine.generation.low=正在發電（>％s％s / t）
-advgenerators.sensor.param.turbine.generation.medium=半速以上發電（>％s％s / t）
-advgenerators.sensor.param.turbine.generation.high=以最高速度發電（％s％s / t）
+advgenerators.sensor.param.turbine.generation.low=正在發電（>%s%s / t）
+advgenerators.sensor.param.turbine.generation.medium=半速以上發電（>%s%s / t）
+advgenerators.sensor.param.turbine.generation.high=以最高速度發電（%s%s / t）
 
 advgenerators.sensor.syngas.water=水箱
 advgenerators.sensor.syngas.steam=內含蒸汽量
@@ -210,9 +210,9 @@ advgenerators.sensor.syngas.carbon=內含炭量
 advgenerators.sensor.syngas.syngas=合成氣量
 advgenerators.sensor.syngas.heat=內部數值
 advgenerators.sensor.param.heat.syngas.cold=未加熱
-advgenerators.sensor.param.heat.syngas.low=正在加熱（<％s HU）
-advgenerators.sensor.param.heat.syngas.medium=能夠產生蒸汽（>％s HU）
-advgenerators.sensor.param.heat.syngas.high=最高頻率（％s HU）
+advgenerators.sensor.param.heat.syngas.low=正在加熱（<%s HU）
+advgenerators.sensor.param.heat.syngas.medium=能夠產生蒸汽（>%s HU）
+advgenerators.sensor.param.heat.syngas.high=最高頻率（%s HU）
 
 advgenerators.sensor.param.fill.empty=空
 advgenerators.sensor.param.fill.not.empty=非空
@@ -224,11 +224,11 @@ advgenerators.sensor.param.fill.gt95=超過95％
 advgenerators.sensor.param.fill.full=滿
 advgenerators.sensor.param.fill.not.full=未滿
 
-advgenerators.tooltip.turbine.produce=輸出預期％s
-advgenerators.tooltip.turbine.inertia=慣性：％s
-advgenerators.tooltip.capacitor=容量：％s
+advgenerators.tooltip.turbine.produce=輸出預期%s
+advgenerators.tooltip.turbine.inertia=慣性：%s
+advgenerators.tooltip.capacitor=容量：%s
 advgenerators.tooltip.kit= shift +右鍵完成升級
-advgenerators.tooltip.efficiency=燃料效率提升至％s
+advgenerators.tooltip.efficiency=燃料效率提升至%s
 advgenerators.tooltip.efficiency.req=需要一個已連接的燃料/空氣混合器
 
 
